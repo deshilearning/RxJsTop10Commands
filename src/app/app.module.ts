@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MapAndTapComponent } from './map-and-tap/map-and-tap.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapAndTapComponent
   ],
   imports: [
     BrowserModule,
